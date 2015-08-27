@@ -41,7 +41,7 @@
     function attachValidation(elem) {
         $(elem).blur(validate);
         $(elem).focus(onfocus);
-    };
+    }
 
     // Reset the CSS
     function onfocus(event) {
@@ -67,7 +67,7 @@
 
         // Set the default options
         opts = $.extend({
-            useHalos: true
+            useHalos: true,
             errorClass: '',
             successClass: ''
         }, options);

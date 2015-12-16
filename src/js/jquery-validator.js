@@ -6,8 +6,10 @@
 
         // Create the errors array
         Validations["errors"] = [];
-        Validations["errors"]["phone"] = "The phone number is not valid";
-        Validations["errors"]["date"] = "The date is not valid";
+        Validations["errors"]["phone"] = "The phone number entered is not valid";
+        Validations["errors"]["date"] = "The date entered is not valid";
+        Validations["errors"]["postal_code"] = "The postal code entered is not valid";
+        Validations["errors"]["email"] = "The email address entered is not valid";
 
         // US validations
         Validations["us-date"] = new RegExp("^([0]?[1-9]|[1][0-2])[./-]([0]?[1-9]|[1|2][0-9]|[3][0|1])[./-]([0-9]{4}|[0-9]{2})$");
